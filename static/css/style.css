@@ -29,7 +29,7 @@ body{
 .wrapper{
 
     width: 500px;
-    height: 400px;
+    height: 500px;
     background-color: aliceblue;
     margin: 0 auto;
     text-align: center;
@@ -38,6 +38,7 @@ body{
 }
 
 .name{
+    margin-top: 50px;
     color: black;
     font-size: 20px;
     text-align: center;
@@ -98,4 +99,27 @@ body{
     color: black;
     font-size: 15px;
     font-weight: bold;
+}
+
+.icon{
+    height: 100px;
+    width: 100px;
+}
+
+.hello{
+    display: flex;
+    justify-content: center;
+}
+.hello_title{
+    width: 250px;
+}
+
+.wrapper-login{
+    width: 500px;
+    height: 370px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 20px 0px 20px;
+    border-radius: 40px;
 }
